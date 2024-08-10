@@ -17,6 +17,6 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 5173,
   },
-  //  base: '/aiota-2024/'
+    base: '/aiota-2024/'
 })
 
