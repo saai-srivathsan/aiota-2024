@@ -43,9 +43,9 @@ const Header = () => {
                         <li className="mb-4">
                             <Link className="text-white hover:bg-white hover:text-black hover:p-2 hover:pl-4 hover:pr-4 hover:rounded-3xl lg:ml-20" to="/events">Events</Link>
                         </li>
-                        <li className="mb-4">
+                        {/* <li className="mb-4">
                             <Link className="text-white hover:bg-white hover:text-black hover:p-2 hover:pl-4 hover:pr-4 hover:rounded-3xl lg:ml-20" to="/contact-us">Contact Us</Link>
-                        </li>
+                        </li> */}
                         <li>
                             <a href="https://r.mtdv.me/videos/7RU8e749Iz" target="_blank" className="text-white hover:bg-white hover:text-black hover:p-2 hover:pl-4 hover:pr-4 hover:rounded-3xl lg:ml-20">Brochure</a>
                         </li>
