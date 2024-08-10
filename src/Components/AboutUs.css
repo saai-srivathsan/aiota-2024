@@ -1,0 +1,37 @@
+.glow {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Adjust container for event coordinators */
+  .bg-gray-800 {
+    background-color: #2d2d2d;
+  }
+  
+  .bg-gray-700 {
+    background-color: #3a3a3a;
+  }
+  
+  .bg-gray-600 {
+    background-color: #4a4a4a;
+  }
+  
+  /* Profile container size */
+  .coordinator-box {
+    padding: 2rem; /* Adjusted padding for a more reasonable size */
+    gap: 0.1rem; /* Space between items */
+  }
+  
+  /* Circular profile image */
+  .coordinator-img {
+    width: 8rem; /* Increased width */
+    height: 8rem; /* Increased height */
+    border-radius: 50px; /* Circular shape */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+  }
+  
+  /* Flexbox for alignment */
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  

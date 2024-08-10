@@ -1,0 +1,57 @@
+/* Define keyframes for animations */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInProgress {
+    0% {
+      opacity: 0;
+      width: 0;
+    }
+    100% {
+      opacity: 1;
+      width: 100%;
+    }
+  }
+  
+  @keyframes fadeInPercentage {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply animations with delay */
+  .animate-title {
+    animation: fadeIn 1s ease-out forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+  }
+  
+  .animate-subtitle {
+    animation: fadeIn 1s ease-out forwards;
+    animation-delay: 1s;
+    opacity: 0;
+  }
+  
+  .animate-progress {
+    animation: fadeInProgress 1s ease-out forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+  }
+  
+  .animate-percentage {
+    animation: fadeInPercentage 1s ease-out forwards;
+    animation-delay: 2s;
+    opacity: 0;
+  }
+  

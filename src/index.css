@@ -1,0 +1,43 @@
+@import url(https://db.onlinewebfonts.com/c/2cb69c1d167cdd29fd32acd783e60e59?family=Good+Times+W00+Heavy);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.font-good {
+  font-family: 'Good Times W00 Heavy';
+}
+
+
+
+  /* Animation for Title */
+@keyframes fadeInTitle {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-title {
+  animation: fadeInTitle 1s ease-out forwards;
+}
+
+/* Animation for Subtitle */
+@keyframes fadeInSubtitle {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-subtitle {
+  animation: fadeInSubtitle 1s ease-out 1s forwards; /* Delay to appear after title */
+}
+
+/* Animation for Progress Bar */
+@keyframes fadeInProgress {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-progress {
+  animation: fadeInProgress 1s ease-out 2s forwards; /* Delay to appear after subtitle */
+}
+
+  
